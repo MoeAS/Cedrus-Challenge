@@ -5,6 +5,13 @@
 On terminal/cmd:
 
 1) cd to the project folder
+
+```
+C:\Users\Mohammed>cd Desktop\springboot\springboot_demo
+
+C:\Users\Mohammed\Desktop\springboot\springboot_demo>
+```
+
 2) check pom.xml file to see if java versions are the same, if not then replace with your version at Line 17
 
 ```
@@ -14,6 +21,10 @@ On terminal/cmd:
 ```
 
 3) run 'mvnw spring-boot:run'
+
+```
+C:\Users\Mohammed\Desktop\springboot\springboot_demo>mvnw spring-boot:run
+```
 
 # Things I would fix:
 
