@@ -26,6 +26,17 @@ C:\Users\Mohammed\Desktop\springboot\springboot_demo>
 C:\Users\Mohammed\Desktop\springboot\springboot_demo>mvnw spring-boot:run
 ```
 
+# If the following error shows up
+
+```
+[ERROR] No plugin found for prefix 'springboot' in the current project and in the plugin groups [org.apache.maven.plugins, org.codehaus.mojo] available from the repositories
+```
+
+run the following
+```
+mvnw org.springframework.boot:spring-boot-maven-plugin:run
+```
+
 # Things I would fix:
 
 1) Better database design (primary keys, not null, foreign keys, etc...)
