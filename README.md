@@ -7,9 +7,11 @@ On terminal/cmd:
 1) cd to the project folder
 2) check pom.xml file to see if java versions are the same, if not then replace with your version at Line 17
 
+```
 <properties>
-		<java.version>18</java.version>
-	</properties>
+	<java.version>18</java.version>
+</properties>
+```
 
 3) run 'mvnw spring-boot:run'
 
